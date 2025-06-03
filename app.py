@@ -1,3 +1,10 @@
+
+import os
+
+os.system("pip install flask")
+os.system("pip install socket")
+
+
 from flask import Flask, render_template, request, jsonify
 import socket
 import time
